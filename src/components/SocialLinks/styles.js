@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link} from 'react-router-dom';
+//import { Link} from 'react-router-dom';
 
 export const SocialLinksWrapper = styled.nav`
 margin: 2rem auto;
@@ -13,7 +13,7 @@ list-style: none;
 `
 export const SocialLinksItem = styled.li``
 
-export const SocialLinksLink = styled(Link)`
+export const SocialLinksLink = styled.a`
   color: #8899A6;
   text-decoration: none;
   transition: color 0.5s;
