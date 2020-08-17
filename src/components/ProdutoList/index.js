@@ -16,26 +16,35 @@ export default function ProdutoList() {
     //}, [0]);
 
     return (
-
-        <ul>
-        
-            <S.ProdutoWrapper key="85233">
-                <S.ProdutoInfo>
-                    <S.ProdutoID>85233</S.ProdutoID>
-                    <S.ProdutoTitle>
-                        aquarela alon wow masc p cilios wp terca
-                   </S.ProdutoTitle>
-                    <S.ProdutoDescription>
-                        <p>2</p>
-                        <p>35.6</p>
-
-                    </S.ProdutoDescription>
-                    <S.ProdutoLink to="/detalhe/">
+        <S.ProdutoWrapper key="85233">
+            <S.ProdutoID>85233</S.ProdutoID>
+            <S.ProdutoTitle>aquarela alon wow masc p cilios wp terca</S.ProdutoTitle>
+            <S.ProdutoQuantidade>2</S.ProdutoQuantidade>
+            <S.ProdutoValue>35.6</S.ProdutoValue>
+            <S.ProdutoTD>
+                <S.ProdutoLink to="/detalhe/">
                     <Enter />
-                    </S.ProdutoLink >
-                </S.ProdutoInfo>
-            </S.ProdutoWrapper>
-        </ul>
+                </S.ProdutoLink >
+            </S.ProdutoTD>
+        </S.ProdutoWrapper>
+        /*  <ul>
+ 
+             <S.ProdutoWrapper key="85233">
+                 <S.ProdutoInfo>
+                     <S.ProdutoID>85233</S.ProdutoID>
+                     <S.ProdutoTitle>
+                         aquarela alon wow masc p cilios wp terca
+                    </S.ProdutoTitle>
+                     <S.ProdutoDescription>
+                         <S.ProdutoQuantidade>2</S.ProdutoQuantidade>
+                         <S.ProdutoValue>35.6</S.ProdutoValue>
+                         <S.ProdutoLink to="/detalhe/">
+                             <Enter />
+                         </S.ProdutoLink >
+                     </S.ProdutoDescription>
+                 </S.ProdutoInfo>
+             </S.ProdutoWrapper>
+         </ul> */
     );
 }
 /*
